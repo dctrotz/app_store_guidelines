@@ -1,7 +1,7 @@
 #2017
-#App Store Review Guidelines
+# App Store Review Guidelines
 
-##Introduction
+## Introduction
 
 Apps are changing the world, enriching people’s lives, and enabling developers like you to innovate like never before. As a result, the App Store has grown into an exciting and vibrant ecosystem for millions of developers and more than a billion users. Whether you are a first time developer or a large team of experienced programmers, we are excited that you are creating apps for the App Store and want to help you understand our guidelines so you can be confident your app will get through the review process quickly.
 
@@ -14,7 +14,7 @@ The guiding principle of the App Store is simple - we want to provide a safe exp
 
 We hope these new guidelines help you sail through the App Review process, and that approvals and rejections are more consistent across the board. This is a living document; new apps presenting new questions may result in new rules at any time. Perhaps your app will trigger this. We love this stuff too, and honor what you do. We’re really trying our best to create the best platform in the world for you to express your talents and make a living, too.
 
-##Before You Submit
+## Before You Submit
 
 To help your app approval go as smoothly as possible, review the common missteps listed below that can slow down the review process or trigger a rejection. This doesn’t replace the guidelines or guarantee approval, but making sure you can check every item on the list is a good start. If your app no longer functions as intended or you’re no longer actively supporting it, it will be removed from the App Store. Learn more about App Store Improvements.
 
@@ -28,7 +28,7 @@ Make sure you:
 - Include detailed explanations of non-obvious features and in-app purchases in the App Review notes, including supporting documentation where appropriate. If we’re not able to access part of your app because it’s geo-locked or otherwise restricted, provide a link to a video of the functionality
 - Check whether your app follows guidance in other documentation, such as:
 
-###Development Guidelines
+### Development Guidelines
 
 - App Programming Guide
 - App Extension Programming Guide
@@ -37,7 +37,7 @@ Make sure you:
 - Safari Extensions Development Guide
 - iTunes Connect Developer Help
 
-###Design Guidelines
+### Design Guidelines
 
 - iOS Human Interface Guidelines
 - macOS Human Interface Guidelines
@@ -474,7 +474,7 @@ Gambling, gaming, and lotteries can be tricky to manage and tend to be one of th
 
 Apps offering VPN services must utilize the NEVPNManager API and must make a clear declaration of what user data will be collected and how it will be used. VPN apps must not violate local laws, and if you choose to make your VPN app available in a territory that requires a VPN license, you must provide your license information in the App Review Notes field.
 
-##After You Submit
+## After You Submit
 
 Once you’ve submitted your app and metadata in iTunes Connect and you’re in the review process, here are some things to keep in mind:
 
