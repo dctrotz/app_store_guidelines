@@ -1,4 +1,4 @@
-# 2018
+# 12/19/2018 
 # App Store Review Guidelines
 
 ## Introduction
@@ -8,7 +8,7 @@ Apps are changing the world, enriching people’s lives, and enabling developers
 The guiding principle of the App Store is simple - we want to provide a safe experience for users to get apps and a great opportunity for all developers to be successful. On the following pages you will find guidelines arranged into five clear sections: Safety, Performance, Business, Design, and Legal. A few other points to keep in mind:
 
 - We have lots of kids downloading lots of apps. Parental controls work great to protect kids, but you have to do your part too. So know that we’re keeping an eye out for the kids.
-- The App Store is a great way to reach hundreds of millions of people around the world. If you build an app that you just want to show to family and friends, the App Store isn’t the best way to do that. Consider Ad Hoc distribution or the Enterprise Program. If you’re just getting started, learn more about the Apple Developer Program.
+- The App Store is a great way to reach hundreds of millions of people around the world. If you build an app that you just want to show to family and friends, the App Store isn’t the best way to do that. Consider using Xcode to install your app on a device for free or use Ad Hoc distribution available to Apple Developer Program members. If you’re just getting started, learn more about the Apple Developer Program.
 - We strongly support all points of view being represented on the App Store, as long as the apps are respectful to users with differing opinions and the quality of the app experience is great. We will reject apps for any content or behavior that we believe is over the line. What line, you ask? Well, as a Supreme Court Justice once said, “I’ll know it when I see it”. And we think that you will also know it when you cross it.
 - If you attempt to cheat the system (for example, by trying to trick the review process, steal user data, copy another developer’s work, or manipulate ratings) your apps will be removed from the store and you will be expelled from the Developer Program.
 - You are responsible for making sure everything in your app complies with these guidelines, including ad networks, analytics services, and third-party SDKs, so review and choose them carefully.
@@ -36,16 +36,13 @@ Make sure you:
 - iOS Data Storage Guidelines
 - macOS File System Documentation
 - Safari Extensions Development Guide
-- App Store Connect Developer Help
+- App Store Connect Help
 
 ### Design Guidelines
 
-- iOS Human Interface Guidelines
-- macOS Human Interface Guidelines
-- tvOS Human Interface Guidelines
-- watchOS Human Interface Guidelines
+- Human Interface Guidelines
 - Brand and Marketing Guidelines
-- App Store Marketing Guidelines
+- Marketing Resources and Identity Guidelines
 - Apple Pay Identity Guidelines
 - Add to Apple Wallet Guidelines
 - Guidelines for Using Apple Trademarks and Copyrights
@@ -240,7 +237,7 @@ If we find that you have attempted to manipulate reviews, inflate your chart ran
 - Apps may use in-app purchase currencies to enable customers to “tip” digital content providers in the app.
 - Any credits or in-game currencies purchased via in-app purchase may not expire, and you should make sure you have a restore mechanism for any restorable in-app purchases.
 - Remember to assign the correct purchasability type or your app will be rejected.
-- Apps should not directly or indirectly enable gifting of in-app purchase content, features, or consumable items to others.
+- Apps may enable gifting of items that are eligible for in-app purchase to others. Such gifts may only be refunded to the original purchaser and may not be exchanged.
 - Apps distributed via the Mac App Store may host plug-ins or extensions that are enabled with mechanisms other than the App Store.
 - Apps offering “loot boxes” or other mechanisms that provide randomized virtual items for purchase must disclose the odds of receiving each type of item to customers prior to purchase.
 - Non-subscription apps may offer a free time-based trial period before presenting a full unlock option by setting up a Non-Consumable IAP item at Price Tier 0 that follows the naming convention: “XX-day Trial.” Prior to the start of the trial, your app must clearly identify its duration, the content or services that will no longer be accessible when the trial ends, and any downstream charges the user would need to pay for full functionality. Learn more about managing content access and the duration of the trial period using Receipts and Device Check.
@@ -535,7 +532,7 @@ Please treat everyone with respect, whether in your responses to App Store revie
 
 Customer trust is the cornerstone of the App Store’s success. Apps should never prey on users or attempt to rip-off customers, trick them into making unwanted purchases, force them to share unnecessary data, raise prices in a tricky manner, charge for features or content that are not delivered, or engage in any other manipulative practices within or outside of the app.
 
-Last Updated: 4 June 2018
+Last Updated: 19 December 2018
 
 ## After You Submit
 
