@@ -1,4 +1,4 @@
-#2017
+# 2017
 # App Store Review Guidelines
 
 ## Introduction
@@ -49,11 +49,11 @@ Make sure you:
 - Add to Apple Wallet Guidelines
 - Guidelines for Using Apple Trademarks and Copyrights
 
-##1. Safety
+## 1. Safety
 
 When people install an app from the App Store, they want to feel confident that it’s safe to do so—that the app doesn’t contain upsetting or offensive content, won’t damage their device, and isn’t likely to cause physical harm from its use. We’ve outlined the major pitfalls below, but if you’re looking to shock and offend people, the App Store isn’t the right place for your app.
 
-###1.1 Objectionable Content
+### 1.1 Objectionable Content
 
 Apps should not include content that is offensive, insensitive, upsetting, intended to disgust, or in exceptionally poor taste. Examples of such content include:
 
@@ -74,7 +74,7 @@ Apps should not include content that is offensive, insensitive, upsetting, inten
 - App Store customer reviews can be an integral part of the app experience, so you should treat customers with respect when responding to their comments. Keep your responses targeted to the user’s comments and do not include personal information, spam, or marketing in your response.
 - Use the provided API to prompt users to review your app; this functionality allows customers to provide an App Store rating and review without the inconvenience of leaving your app, and we will disallow custom review prompts.
 
-###1.2 User Generated Content
+### 1.2 User Generated Content
 
 Apps with user-generated content present particular challenges, ranging from intellectual property infringement to anonymous bullying. To prevent abuse, apps with user-generated content or social networking services must include:
 
@@ -85,13 +85,13 @@ Apps with user-generated content present particular challenges, ranging from int
 
 Apps with user-generated content or services that end up being used primarily for pornographic content, objectification of real people (e.g. “hot-or-not” voting), making physical threats, or bullying do not belong on the App Store and may be removed without notice. If your app includes user-generated content from a web-based service, it may display incidental mature “NSFW” content, provided that the content is hidden by default and only displayed when the user turns it on via your website.
 
-###1.3 Kids Category
+### 1.3 Kids Category
 
 The Kids Category is a great way for people to easily find apps that are appropriate for children. If you want to participate in the Kids Category, you should focus on creating a great experience specifically for younger users. These apps must not include links out of the app, purchasing opportunities, or other distractions to kids unless reserved for a designated area behind a parental gate. Keep in mind that once customers expect your app to follow the Kids Category requirements, it will need to continue to meet these guidelines in subsequent updates, even if you decide to deselect the category. Learn more about parental gates.
 
 Apps in the Kids Category may not include behavioral advertising (e.g. the advertiser may not serve ads based on the user’s activity), and any contextual ads must be appropriate for young audiences. You should also pay particular attention to privacy laws around the world relating to the collection of data from children online. Be sure to review the Privacy section of these guidelines for more information.
 
-###1.4 Physical Harm
+### 1.4 Physical Harm
 
 If your app behaves in a way that risks physical harm, we may reject it. For example:
 
@@ -110,21 +110,21 @@ If your medical app has received regulatory clearance, please submit a link to t
 
 **1.4.5** Apps should not urge customers to use their devices in a way that contradicts safety documentation for Apple hardware, risking damage to the device or physical harm to people. For example, apps should not encourage placing the device under a mattress or pillow while charging or perform excessive write cycles to the solid state drive. Review device documentation.
 
-###1.5 Developer Information
+### 1.5 Developer Information
 
 People need to know how to reach you with questions and support issues. Make sure your Support URL includes an easy way to reach you. Failure to include accurate and up-to-date contact information not only frustrates customers, but may violate the law in some countries. Also ensure that Wallet passes include valid contact information from the issuer and are signed with a dedicated certificate assigned to the brand or trademark owner of the pass.
 
-##2. Performance
+## 2. Performance
 
-###2.1 App Completeness
+### 2.1 App Completeness
 
 Submissions to App Review, including apps you make available for pre-order, should be final versions with all necessary metadata and fully functional URLs included; placeholder text, empty websites, and other temporary content should be scrubbed before submission. Make sure your app has been tested on-device for bugs and stability before you submit it, and include demo account info (and turn on your back-end service!) if your app includes a login. If you offer in-app purchases in your app, make sure they are complete, up-to-date, and visible to the reviewer, or that you explain why not in your review notes. Please don’t treat App Review as a software testing service. We will reject incomplete app bundles and binaries that crash or exhibit obvious technical problems.
 
-###2.2 Beta Testing
+### 2.2 Beta Testing
 
 Demos, betas, and trial versions of your app don’t belong on the App Store – use TestFlight instead. Any app submitted for beta distribution via TestFlight should be intended for public distribution and should comply with the App Review Guidelines. Note, however, that apps using TestFlight cannot be distributed to testers in exchange for compensation of any kind, including as a reward for crowd-sourced funding. Significant updates to your beta build should be submitted to TestFlight App Review before being distributed to your testers. To learn more, visit the TestFlight Beta Testing.
 
-###2.3 Accurate Metadata
+### 2.3 Accurate Metadata
 
 Customers should know what they’re getting when they download or buy your app, so make sure your app description, screenshots, and previews accurately reflect the app’s core experience and remember to keep them up-to-date with new versions.
 
@@ -150,7 +150,7 @@ Customers should know what they’re getting when they download or buy your app,
 
 **2.3.11** Apps you submit for pre-order on the App Store must be complete and deliverable as submitted. Ensure that the app you ultimately release is not materially different from what you advertise while the app is in a pre-order state. If you make material changes to the app (e.g. change business models), you should restart your pre-order sales.
 
-###2.4 Hardware Compatibility
+### 2.4 Hardware Compatibility
 
 **2.4.1** To ensure people get the most out of your app, iPhone apps should run on iPad whenever possible. We encourage you to consider building universal apps so customers can use them on all of their devices. Learn more about Universal apps.
 
@@ -180,7 +180,7 @@ Customers should know what they’re getting when they download or buy your app,
 
 **(ix)** Apps must contain all language and localization support in a single app bundle.
 
-###2.5 Software Requirements
+### 2.5 Software Requirements
 
 **2.5.1** Apps may only use public APIs and must run on the currently shipping OS. Learn more about public APIs. Keep your apps up-to-date and make sure you phase out any deprecated features, frameworks or technologies that will no longer be supported in future versions of an OS. Apps should use APIs and frameworks for their intended purposes and indicate that integration in their app description. For example, the HomeKit framework should provide home automation services; and HealthKit should be used for health and fitness purposes and integrate with the Health app.
 
@@ -214,14 +214,14 @@ Customers should know what they’re getting when they download or buy your app,
 
 **2.5.13** Apps using facial recognition for account authentication must use LocalAuthentication (and not ARKit or other facial recognition technology), and must use an alternate authentication method for users under 13 years old.
 
-##3. Business
+## 3. Business
 
 There are many ways to monetize your app on the App Store. If your business model isn’t obvious, make sure to explain in its metadata and App Review notes. If we can’t understand how your app works or your in-app purchases aren’t immediately obvious, it will delay your review and may trigger a rejection. And while pricing is up to you, we won’t distribute apps and in-app purchase items that are clear rip-offs. We’ll reject expensive apps that try to cheat users with irrationally high prices.
 
 If we find that you have attempted to manipulate reviews, inflate your chart rankings with paid, incentivized, filtered, or fake feedback, or engage with third party services to do so on your behalf, we will take steps to preserve the integrity of the App Store, which may include expelling you from the Developer Program.
 
 
-###3.1 Payments
+### 3.1 Payments
 
 **3.1.1 In-App Purchase:**
 
@@ -263,7 +263,7 @@ If we find that you have attempted to manipulate reviews, inflate your chart ran
 - The actual charges that will be billed to the customer
 - How to cancel
 
-###3.2 Other Business Model Issues
+### 3.2 Other Business Model Issues
 
 The lists below are not exhaustive, and your submission may trigger a change or update to our policies, but here are some additional do’s and don’ts to keep in mind:
 
@@ -303,15 +303,15 @@ The lists below are not exhaustive, and your submission may trigger a change or 
 
 **(viii)** Apps that facilitate binary options trading are not permitted on the App Store. Consider a web app instead. Apps that facilitate trading in contracts for difference (“CFDs”) or other derivatives (e.g. FOREX) must be properly licensed in all jurisdictions where the service is available.
 
-##4. Design
+## 4. Design
 
 Apple customers place a high value on products that are simple, refined, innovative, and easy to use, and that’s what we want to see on the App Store. Coming up with a great design is up to you, but the following are minimum standards for approval to the App Store. And remember that even after your app has been approved, you should update your app to ensure it remains functional and engaging to new and existing customers. Apps that stop working or offer a degraded experience may be removed from the App Store at any time.
 
-###4.1 Copycats
+### 4.1 Copycats
 
 Come up with your own ideas. We know you have them, so make yours come to life. Don’t simply copy the latest popular app on the App Store, or make some minor changes to another app’s name or UI and pass it off as your own. In addition to risking an intellectual property infringement claim, it makes the App Store harder to navigate and just isn’t fair to your fellow developers.
 
-###4.2 Minimum Functionality
+### 4.2 Minimum Functionality
 
 Your app should include features, content, and UI that elevate it beyond a repackaged website. If your app is not particularly useful, unique, or “app-like,” it doesn’t belong on the App Store. If your App doesn't provide some sort of lasting entertainment value, or is just plain creepy, it may not be accepted. Apps that are simply a song or movie should be submitted to the iTunes Store. Apps that are simply a book or game guide should be submitted to the iBooks Store.
 
@@ -327,11 +327,11 @@ Your app should include features, content, and UI that elevate it beyond a repac
 
 **4.2.6** Apps created from a commercialized template or app generation service will be rejected unless they are submitted directly by the provider of the app’s content. These services should not submit apps on behalf of their clients and should offer tools that let their clients create customized, innovative apps that provide unique customer experiences. Another acceptable option for template providers is to create a single binary to host all client content in an aggregated or “picker” model, for example as a restaurant finder app with separate customized entries or pages for each client restaurant, or as an event app with separate entries for each client event.
 
-###4.3 Spam
+### 4.3 Spam
 
 Don’t create multiple Bundle IDs of the same app. If your app has different versions for specific locations, sports teams, universities, etc., consider submitting a single app and provide the variations using in-app purchase. Also avoid piling on to a category that is already saturated; the App Store has enough fart, burp, flashlight, and Kama Sutra apps already. Spamming the store may lead to your removal from the Developer Program.
 
-###4.4 Extensions
+### 4.4 Extensions
 
 Apps hosting or containing extensions must comply with the App Extension Programming Guide or the Safari Extensions Development Guide and should include some functionality, such as help screens and settings interfaces where possible. You should clearly and accurately disclose what extensions are made available in the app’s marketing text, and the extensions may not include marketing, advertising, or in-app purchases.
 
@@ -366,7 +366,7 @@ Stickers are a great way to make Messages more dynamic and fun, letting people e
 
 **(v)** You must have all the necessary copyright, trademark, publicity rights, and permissions for the content in your stickers, and shouldn’t submit anything unless you’re authorized to do so. Keep in mind that you must be able to provide verifiable documentation upon request. Apps with sticker content you don’t have rights to use will be removed from the App Store and repeat offenders will be removed from the Developer Program. If you believe your content has been infringed by another provider, submit a claim here.
 
-###4.5 Apple Sites and Services
+### 4.5 Apple Sites and Services
 
 **4.5.1** Apps may use approved Apple RSS feeds such as the iTunes Store RSS feed, but may not scrape any information from Apple sites (e.g. apple.com, the iTunes Store, App Store, iTunes Connect, developer portal, etc.) or create rankings using this information.
 
@@ -384,19 +384,19 @@ Stickers are a great way to make Messages more dynamic and fun, letting people e
 
 **4.5.5** Only use Game Center Player IDs in a manner approved by the Game Center terms and do not display them in the app or to any third party.
 
-###4.6 Alternate App Icons
+### 4.6 Alternate App Icons
 
 Apps may display customized icons, for example, to reflect a sports team preference, provided that each change is initiated by the user and the app includes settings to revert to the original icon. All icon variants must relate to the content of the app and changes should be consistent across all system assets, so that the icons displayed in Settings, Notifications, etc. match the new springboard icon. This feature may not be used for dynamic, automatic, or serial changes, such as to reflect up-to-date weather information, calendar notifications, etc.
 
-###4.7 HTML5 Games, Bots, etc.
+### 4.7 HTML5 Games, Bots, etc.
 
 Apps may contain or run code that is not embedded in the binary (e.g. HTML5-based games, bots, etc.), as long as code distribution isn’t the main purpose of the app, the code is not offered in a store or store-like interface, and provided that the software (1) is free or purchased using in-app purchase; (2) only uses capabilities available in a standard WebKit view; your app must use WebKit and JavaScript Core to run third party software and should not attempt to extend or expose native platform APIs to third party software; (3) is offered by developers that have joined the Apple Developer Program and signed the Apple Developer Program License Agreement; and (4) adheres to the terms of these App Review Guidelines (e.g. does not include objectionable content). You must provide an index of software and metadata available in your app upon request.
 
-##5. Legal
+## 5. Legal
 
 Apps must comply with all legal requirements in any location where you make them available (if you’re not sure, check with a lawyer). We know this stuff is complicated, but it is your responsibility to understand and make sure your app conforms with all local laws, not just the guidelines below. And of course, apps that solicit, promote, or encourage criminal or clearly reckless behavior will be rejected. In extreme cases, such as apps that are found to facilitate human trafficking and/or the exploitation of children, appropriate authorities will be notified.
 
-###5.1 Privacy
+### 5.1 Privacy
 
 Protecting user privacy is paramount in the Apple ecosystem, and you should use care when handling personal data to ensure you’ve complied with applicable laws and the terms of the Apple Developer Program License Agreement, not to mention customer expectations. More particularly:
 
@@ -444,7 +444,7 @@ Moreover, apps in the Kids Category or those that collect, transmit, or have the
 
 Use Location services in your app only when it is directly relevant to the features and services provided by the app. Location-based APIs shouldn’t be used to provide emergency services or autonomous control over vehicles, aircraft, and other devices, except for small devices such as lightweight drones and toys, or remote control car alarm systems, etc. Ensure that you notify and obtain consent before collecting, transmitting, or using location data. If your app uses background location services, be sure to explain the purpose in your app; refer to the Human Interface Guidelines for best practices on doing so.
 
-###5.2 Intellectual Property
+### 5.2 Intellectual Property
 
 Make sure your app only includes content that you created or that you have a license to use. Your app may be removed if you’ve stepped over the line and used content without permission. Of course, this also means someone else’s app may be removed if they’ve “borrowed” from your work. If you believe your intellectual property has been infringed by another developer on the App Store, submit a claim via our web form. Laws differ in different countries, but at the very least, make sure to avoid the following common errors:
 
@@ -458,7 +458,7 @@ Make sure your app only includes content that you created or that you have a lic
 
 **5.2.5** Apple Products: Don’t create an app that appears confusingly similar to an existing Apple product, interface (e.g. Finder), app (such as the App Store, iTunes Store, or Messages) or advertising theme. Apps and extensions, including third party keyboards and Sticker packs, may not include Apple emoji. iTunes music previews may not be used for their entertainment value (e.g. as the background music to a photo collage or the soundtrack to a game) or in any other unauthorized manner. If your app displays Activity rings, they should not visualize Move, Exercise, or Stand data in a way that resembles the Activity control. The Human Interface Guidelines have more information on how to use Activity rings.
 
-###5.3 Gaming, Gambling, and Lotteries
+### 5.3 Gaming, Gambling, and Lotteries
 
 Gambling, gaming, and lotteries can be tricky to manage and tend to be one of the most regulated offerings on the App Store. Only include this functionality if you’ve fully vetted your legal obligations everywhere you make your app available and are prepared for extra time during the review process. Some things to keep in mind:
 
@@ -470,7 +470,7 @@ Gambling, gaming, and lotteries can be tricky to manage and tend to be one of th
 
 **5.3.4** Apps that offer real money gaming (e.g. sports betting, poker, casino games, horse racing) or lotteries must have necessary licensing and permissions in the locations where the App is used, must be geo-restricted to those locations, and must be free on the App Store. Illegal gambling aids, including card counters, are not permitted on the App Store. Lottery apps must have consideration, chance, and a prize.
 
-###5.4 VPN Apps
+### 5.4 VPN Apps
 
 Apps offering VPN services must utilize the NEVPNManager API and must make a clear declaration of what user data will be collected and how it will be used. VPN apps must not violate local laws, and if you choose to make your VPN app available in a territory that requires a VPN license, you must provide your license information in the App Review Notes field.
 
